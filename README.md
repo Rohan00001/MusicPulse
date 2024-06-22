@@ -56,7 +56,6 @@ To get started with MusicPulse, follow these steps:
 - **React.js:** For building the user interface.
 - **Redux:** For state management.
 - **Tailwind CSS:** For styling.
-- **Shazam Core API:** For fetching music data.
 
 ## 📄 Project Structure
 
@@ -90,14 +89,6 @@ musicpulse/
 ├── vite.config.js
 └── README.md
 ```
-
-## 🤝 Contributing
-
-Contributions are welcome! If you have any ideas or suggestions to improve MusicPulse, feel free to open an issue or create a pull request.
-
-## 📜 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## 📞 Contact
 
