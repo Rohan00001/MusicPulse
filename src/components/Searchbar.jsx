@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 import { FiSearch } from 'react-icons/fi';
+import { FaUserCircle, FaUserNinja } from 'react-icons/fa';
 
 const Searchbar = () => {
 	const navigate = useNavigate();
@@ -14,34 +15,29 @@ const Searchbar = () => {
 	};
 
 	return (
-		<form
-			onSubmit={handleSubmit}
-			autoComplete='off'
-			className='p-2 text-gray-400 focus-within:text-gray-600'
-		>
-			<label
-				htmlFor='search-field'
-				className='sr-only'
+		<div className='flex justify-between w-full py-0'>
+			<form
+				onSubmit={handleSubmit}
+				className='flex items-center justify-center w-full max-w-[600px] px-4 py-2 mx-5 rounded-3xl  '
 			>
-				Search all files
-			</label>
-			<div className='flex flex-row justify-start items-center'>
-				<FiSearch
-					aria-hidden='true'
-					className='w-5 h-5 ml-4'
-				/>
 				<input
-					name='search-field'
-					autoComplete='off'
-					id='search-field'
-					className='flex-1 bg-transparent border-none placeholder-gray-500 outline-none text-base text-white p-4'
-					placeholder='Search'
-					type='search'
+					type='text'
 					value={searchTerm}
 					onChange={(e) => setSearchTerm(e.target.value)}
+					placeholder='Search for songs, artists, albums...'
+					className='w-full py-2 text-white bg-transparent outline-none'
 				/>
+				<button
+					type='submit'
+					className='text-white'
+				>
+					<FiSearch className='w-6 h-6' />
+				</button>
+			</form>
+			<div className='p-6'>
+				<FaUserCircle className='w-10 h-10 text-gray-600' />
 			</div>
-		</form>
+		</div>
 	);
 };
 
