@@ -70,12 +70,24 @@ musicpulse/
 │   │   ├── Discover.jsx
 │   │   ├── AroundYou.jsx
 │   │   ├── TopArtists.jsx
+|   |   ├── ArtistDetails.jsx
+│   |   ├── SongDetails.jsx
+│   |   ├── Search.jsx
+│   |   ├── index.js
 │   │   └── TopCharts.jsx
 │   ├── redux/
 │   ├── App.js
 │   ├── index.js
+│   ├── index.css
 │   └── ...
+├── index.html
+├── .gitignore
+├── postcss.config.js
+├── tailwind.config.js
+├── vercel.json
+├── package-lock.json
 ├── package.json
+├── vite.config.js
 └── README.md
 ```
 
@@ -91,4 +103,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 If you have any questions or need further assistance, feel free to reach out:
 
-- **GitHub:** [your-username](https://github.com/your-username)
+- **GitHub:** [Rohan00001](https://github.com/Rohan00001)
