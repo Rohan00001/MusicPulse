@@ -260,55 +260,55 @@ export const topPlayData = [
 			},
 		],
 	},
-	{
-		title: 'Angaaron',
-		subtitle: 'Shreya Ghoshal',
-		key: '10005',
-		images: {
-			coverart:
-				'https://i.scdn.co/image/ab67616d0000b273b3b485c05c0c8a4893612544',
-			background:
-				'https://i.scdn.co/image/ab6761610000e5eb36a7262247318ff0f1ad00da',
-		},
-		artists: [
-			{
-				adamid: '127',
-				name: 'Shreya Ghoshal',
-			},
-		],
-	},
-	{
-		title: 'Vaaste',
-		subtitle: 'Dhvani Bhanushali, Nikhil D’Souza',
-		key: '10006',
-		images: {
-			coverart:
-				'https://i.scdn.co/image/ab67616d0000b273b5e6c9ce5bb77c1607780315',
-			background:
-				'https://i.scdn.co/image/ab6761610000e5eb474e22bd75615c1a0b3a8530',
-		},
-		artists: [
-			{
-				adamid: '128',
-				name: 'Dhvani Bhanushali',
-			},
-		],
-	},
-	{
-		title: 'Ghungroo',
-		subtitle: 'Arijit Singh, Shilpa Rao',
-		key: '10008',
-		images: {
-			coverart:
-				'https://i.scdn.co/image/ab67616d0000b273281650a8e8c5d04658d31ac1',
-			background:
-				'https://i.scdn.co/image/ab6761610000e5eb0261696c5df3be99da6ed3f3',
-		},
-		artists: [
-			{
-				adamid: '129',
-				name: 'Arijit Singh',
-			},
-		],
-	},
+	// {
+	// 	title: 'Angaaron',
+	// 	subtitle: 'Shreya Ghoshal',
+	// 	key: '10005',
+	// 	images: {
+	// 		coverart:
+	// 			'https://i.scdn.co/image/ab67616d0000b273b3b485c05c0c8a4893612544',
+	// 		background:
+	// 			'https://i.scdn.co/image/ab6761610000e5eb36a7262247318ff0f1ad00da',
+	// 	},
+	// 	artists: [
+	// 		{
+	// 			adamid: '127',
+	// 			name: 'Shreya Ghoshal',
+	// 		},
+	// 	],
+	// },
+	// {
+	// 	title: 'Vaaste',
+	// 	subtitle: 'Dhvani Bhanushali, Nikhil D’Souza',
+	// 	key: '10006',
+	// 	images: {
+	// 		coverart:
+	// 			'https://i.scdn.co/image/ab67616d0000b273b5e6c9ce5bb77c1607780315',
+	// 		background:
+	// 			'https://i.scdn.co/image/ab6761610000e5eb474e22bd75615c1a0b3a8530',
+	// 	},
+	// 	artists: [
+	// 		{
+	// 			adamid: '128',
+	// 			name: 'Dhvani Bhanushali',
+	// 		},
+	// 	],
+	// },
+	// {
+	// 	title: 'Ghungroo',
+	// 	subtitle: 'Arijit Singh, Shilpa Rao',
+	// 	key: '10008',
+	// 	images: {
+	// 		coverart:
+	// 			'https://i.scdn.co/image/ab67616d0000b273281650a8e8c5d04658d31ac1',
+	// 		background:
+	// 			'https://i.scdn.co/image/ab6761610000e5eb0261696c5df3be99da6ed3f3',
+	// 	},
+	// 	artists: [
+	// 		{
+	// 			adamid: '129',
+	// 			name: 'Arijit Singh',
+	// 		},
+	// 	],
+	// },
 ];

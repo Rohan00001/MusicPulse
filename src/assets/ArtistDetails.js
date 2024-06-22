@@ -1,5 +1,140 @@
 export const dummyArtistData = [
 	{
+		id: '123',
+		attributes: {
+			name: 'Rahul Sipligunj',
+			genreNames: ['Tollywood', 'Telugu Pop'],
+			bio: 'Rahul Sipligunj is an Indian playback singer known for his soulful voice and chart-topping hits.',
+			artwork: {
+				url: 'https://i.scdn.co/image/ab67616d00001e023b517b3d9edcea064e1818d4',
+			},
+			views: {
+				'top-songs': {
+					data: [
+						{
+							id: '10001',
+							attributes: {
+								title: 'Naatu Naatu',
+								albumName: 'RRR',
+								artwork: {
+									url: 'https://i.scdn.co/image/ab67616d0000b273f83c2d7e01bdf4443b881532',
+								},
+							},
+						},
+						{
+							id: '10002',
+							attributes: {
+								title: 'Ranjha',
+								albumName: 'Shershaah',
+								artwork: {
+									url: 'https://i.scdn.co/image/ab67616d0000b27309426d9ae9d8d981735ebc5e',
+								},
+							},
+						},
+						{
+							id: '10003',
+							attributes: {
+								title: 'Shayad',
+								albumName: 'Love Aaj Kal',
+								artwork: {
+									url: 'https://i.scdn.co/image/ab67616d0000b2735ce250ed772675c347a34f64',
+								},
+							},
+						},
+						{
+							id: '10004',
+							attributes: {
+								title: 'Vachinde',
+								albumName: 'Fidaa',
+								artwork: {
+									url: 'https://i.scdn.co/image/ab67616d0000b273f83c2d7e01bdf4443b881532',
+								},
+							},
+						},
+						{
+							id: '10005',
+							attributes: {
+								title: 'Pilla Ra',
+								albumName: 'RX 100',
+								artwork: {
+									url: 'https://i.scdn.co/image/ab67616d0000b273f83c2d7e01bdf4443b881532',
+								},
+							},
+						},
+					],
+				},
+			},
+		},
+	},
+	{
+		id: '124',
+		attributes: {
+			name: 'B Praak',
+			genreNames: ['Bollywood', 'Indian Pop'],
+			bio: 'B Praak is an Indian playback singer known for his soulful voice and chart-topping hits.',
+			artwork: {
+				url: 'https://i.scdn.co/image/ab6761610000e5eb1085c393173d6a0826610e98',
+			},
+			views: {
+				'top-songs': {
+					data: [
+						{
+							id: '10001',
+							attributes: {
+								title: 'Naatu Naatu',
+								albumName: 'RRR',
+								artwork: {
+									url: 'https://i.scdn.co/image/ab67616d0000b273f83c2d7e01bdf4443b881532',
+								},
+							},
+						},
+						{
+							id: '10002',
+							attributes: {
+								title: 'Ranjha',
+								albumName: 'Shershaah',
+								artwork: {
+									url: 'https://i.scdn.co/image/ab67616d0000b27309426d9ae9d8d981735ebc5e',
+								},
+							},
+						},
+						{
+							id: '10003',
+							attributes: {
+								title: 'Shayad',
+								albumName: 'Love Aaj Kal',
+								artwork: {
+									url: 'https://i.scdn.co/image/ab67616d0000b2735ce250ed772675c347a34f64',
+								},
+							},
+						},
+						{
+							id: '10004',
+							attributes: {
+								title: 'Vachinde',
+								albumName: 'Fidaa',
+								artwork: {
+									url: 'https://i.scdn.co/image/ab67616d0000b273f83c2d7e01bdf4443b881532',
+								},
+							},
+						},
+						{
+							id: '10005',
+							attributes: {
+								title: 'Pilla Ra',
+								albumName: 'RX 100',
+								artwork: {
+									url: 'https://i.scdn.co/image/ab67616d0000b273f83c2d7e01bdf4443b881532',
+								},
+							},
+						},
+					],
+				},
+			},
+		},
+	},
+
+	{
 		id: '125',
 		attributes: {
 			name: 'Arijit Singh',

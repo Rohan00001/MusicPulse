@@ -5,7 +5,7 @@ import { Error, Loader, SongCard } from '../components';
 import { dummyCountryTracks } from '../assets/dummyCountryTracks';
 
 const CountryTracks = () => {
-	const [country, setCountry] = useState('IN'); // Set default country code
+	const [country, setCountry] = useState('INDIA'); // Set default country code
 	const { activeSong, isPlaying } = useSelector((state) => state.player);
 
 	// Simulating data fetching

@@ -11,7 +11,6 @@ const ArtistDetails = () => {
 	const artistData = dummyArtistData.find(
 		(artist) => artist.id == parseInt(artistId)
 	);
-	console.log(artistData?.attributes?.views['top-songs']);
 	const isFetchingArtistDetails = false;
 	const error = null;
 
